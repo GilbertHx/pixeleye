@@ -1,0 +1,313 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PixelEye &bull; Looks into dots</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href='{% static "css/base.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "css/aos.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "css/lity.min.css" %}'>
+  </head>
+    <body>
+        <div class="top-banner">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="myNavbarNav">
+                <div class="container">
+                    <a class="navbar-brand" href="/">PixelEye</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="top-banner-intro-txt-area">
+                    <h1 class="bg-sign-p">P</h1>
+                    <h3>It's <s>impossible</s> to explain <span class="big-text-top-banner">creativity.</span></h3>
+                    <h3>It's like asking a bird, 'How do you fly?'</h3>
+                    <h3>You just do.</h3>
+                    <h6 class="white">- Eric Jerome Dickey</h6>
+                </div>
+            </div>
+        </div> 
+        <div id="about-us">
+            <div class="about-us section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm">
+                            <h1 class="bg-sign-a">A</h1>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="card-title section-title">About Us</h1>
+                                    <p class="card-text">PixelEye established in 2010 was specialized in graphic design and video production. 
+                                    From this position we early recognized the opportunity for Creative, Art and Communication.</p>
+                                </div>
+                            </div>
+                            <div class="vision-mission-area">
+                                <div class="card-body">
+                                    <h4 class="card-title">Our Vision</h4>
+                                    <p class="card-text">To be a leading Creative and commuction company in providing our clients with innovative 
+                                    solutions for all branding requirements enabling them to optimize their business objectives.</p>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Our Mission</h4>
+                                    <p class="card-text">Provide you with the highest quality products and services possible in a timely fashion at a competitive price. 
+                                    We promise to listen to you and help you achieve your business goals. 
+                                    We will always be there with honest, expert advice and quick, friendly customer service..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <img src='{% static "img/1-01.png" %}' class="img-fluid" alt="About Us Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="services section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-6 text-center">
+                            <h1 class="bg-sign-s">S</h1>
+                            <h1 class="card-title section-title">Services</h1>
+                            <p class="card-text">When it comes to business communications services, we can do it all. 
+                                With a complete range of products and services at your disposal, 
+                                we can help you get your message and branding out to customers, employees and vendors alike..</p>
+                        </div>
+                    </div>
+                    <div class="services-area">
+                        <div class="row align-items-center single-service">
+                            <div class="col-sm order-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Graphic Design</h4>
+                                        <p class="card-text">Corporate Identity & Branding, Logo Design, Brand Identity Design, 
+                                        Contemporary Print Design, Strategic Marketing and Brand Consultation</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm order-sm-1">
+                                <img src='{% static "img/graphic-d.png" %}' class="img-fluid services-img img-right" alt="About Us Image">
+                            </div>
+                        </div>
+                        <div class="row align-items-center single-service">
+                            <div class="col-sm">
+                                <div class="card">
+                                    <div class="card-body text-right">
+                                        <h4 class="card-title">Photograph and Audiovisual</h4>
+                                        <p class="card-text">Photo shooting, Video shooting, Editing, 
+                                        Animations and graphics, Live screening and Virtual tour</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <img src='{% static "img/Photo n audiovision-01.png" %}' class="img-fluid services-img" alt="About Us Image">
+                            </div>
+                        </div>
+                        <div class="row align-items-center single-service">
+                            <div class="col-sm order-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Social Media Management</h4>
+                                        <p class="card-text">Creating Engaging Social Content (Videos,Photos,Graphic animations and designs), 
+                                        Posting Company-Related Updates, Promotions & Social Campagnes, 
+                                        Integrate Social Media Activity into Other Marketing Plans, Monitoring and Analytics</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm order-sm-1">
+                                <img src='{% static "img/social media.png" %}' class="img-fluid services-img img-right" alt="About Us Image">
+                            </div>
+                        </div>
+                        <div class="row align-items-center single-service">
+                            <div class="col-sm">
+                                <div class="card">
+                                    <div class="card-body text-right">
+                                        <h4 class="card-title">Virtual Reality</h4>
+                                        <p class="card-text">Welcome to VR Virtual Reality (VR) and 360 video production and explore the world from totally new perspectives.
+                        VR is poised to give birth to new forms of storytelling and emotionally powerful experiences.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <img src='{% static "img/VR-01.png" %}' class="img-fluid services-img" alt="About Us Image">
+                            </div>
+                        </div>
+                        <div class="row align-items-center single-service">
+                            <div class="col-sm order-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Wed Development</h4>
+                                        <p class="card-text">Pixeleye understand well that each person or company has defferent needs and desires. 
+                        Our aim is to make your website secure and more useful for you and your customers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm order-sm-1">
+                                <img src='{% static "img/web-01.png" %}' class="img-fluid services-img img-right" alt="About Us Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="portfolio">
+            <div class="section portfolio">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-6 text-center">
+                            <h1 class="bg-sign-w">W</h1>
+                            <h1 class="card-title">Our Work</h1>
+                            <p class="card-text">PixelEye is an integrated media solutions company with a wide range of marketing and communication services. 
+                            We strive to become part of your team, to create or enhance your communication , with maximum impact on any media platform. 
+                            All our work is developed in-house, constantly focusing on your target audience. 
+                            This integrated approach helps you to make sure all of your business marketing needs are made successfully, 
+                            with creativity, on time and within your budget...</p>
+                        </div>
+                    </div>
+                    <div class="row service-area">
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Ibc00oC0xwc">
+                                <img class="img-thumbnail" src='{% static "img/4G_speed.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">4G LTE</p>
+                                    <p class="card-text category">Documentary</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=W_WMYaSjhl8">
+                                <img class="img-thumbnail" src='{% static "img/kbc.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">KCB Mortgage</p>
+                                    <p class="card-text category">TVC & Others</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=73CMh9dNgvQ">
+                                <img class="img-thumbnail img-fluid" src='{% static "img/kics.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">KICS</p>
+                                    <p class="card-text category">Documentary</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GmRssak8mLw">
+                                <img class="img-thumbnail img-fluid" src='{% static "img/4G_talk.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">4G Talk</p>
+                                    <p class="card-text category">TVC & Others</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=u6XrQpOe5Kw">
+                                <img class="img-thumbnail" src='{% static "img/wu_congo.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">Western Union - RDC </p>
+                                    <p class="card-text category">TVC & Others</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=2nfUwW0TdoE">
+                                <img class="img-thumbnail" src='{% static "img/rdb.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">RDB - Your voice campaign </p>
+                                    <p class="card-text category">Animation & Graphics</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=MSQdxfGzvQU"> 
+                                <img class="img-thumbnail" src='{% static "img/miss_rwanda.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">Miss Rwanda 2017</p>
+                                    <p class="card-text category">Documentary</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 single-work-cont">
+                            <a class="card text-center" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=7Jd3M-mi6qM">
+                                <img class="img-thumbnail"src='{% static "img/peace_edu.jpg" %}' alt="product"/>
+                                <div class="card-body">
+                                    <p class="card-text">PEC - Aegis Trust</p>
+                                    <p class="card-text category">Documentary</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="contact-us"> 
+            <div class="contact-us section">
+                <div class="container">
+                    <div class="card">
+                        <div class="row align-items-center">
+                            <h1 class="bg-sign-c">C</h1>
+                            <div class="col-md-4">
+                                <h4 class="card-title">Contact Us</h4>
+                                <p class="card-text">Interested in innovative projects? Then it's time we got to know one another. We look forward to hearing from you by e-mail or phone.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src='{% static "img/mission-01.png" %}' class="img-fluid" alt="About Us Image">
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Main Office</h4>
+                                <span>KG 624 Rugando Road, Kimihurura</span><br>
+                                <span>Kigali, RW</span><br>
+                                <span>(+250) 782 518 844, 786 977 003</span><br>
+                                <span>info@pixeleye.rw</span><br>
+                            </div>
+                        <div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <span>© PixelEye LTD 2019, All Rights Reserved.</span>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+        <script src='{% static "js/lity.min.js" %}'></script>
+        <script src='{% static "js/category-filter.js" %}'></script>
+        <script src='{% static "js/aos.js" %}'></script>
+        <script src='{% static "js/custom.js" %}'></script>
+        <script type="text/javascript">
+            $('.category-filter .category-button').categoryFilter();
+            AOS.init({
+                easing: 'ease-in-out-sine'
+            });
+        </script>
+    </body>
+</html>
