@@ -347,6 +347,11 @@ nav ul li a.nav-link {
     left: 5%;
     font-size: 22rem;
   }
+
+  .bg-sign-w {
+    left: 5%;
+    font-size: 22rem;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
