@@ -85,7 +85,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'pixelEyeDB',
+            'NAME': 'pixeleyedb',
             'USER': 'gilbert',
             'PASSWORD': 'admin123',
             'HOST': 'localhost',
