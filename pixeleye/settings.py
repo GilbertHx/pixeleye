@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'k6-ug-qxu*jcdzg2zct!utl1h72-bt#*5@zz@pr*8ht2_2_qcr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['104.248.103.198', 'pixeleye.rw']
+ALLOWED_HOSTS = ['104.248.103.198', 'pixeleye.rw', '127.0.0.1']
 
 
 # Application definition
